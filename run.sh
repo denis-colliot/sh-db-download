@@ -1,1 +1,1 @@
-curl -s 'http://mapix-data.ixxi.net/infos/info.prod.json' | js '.url'
+curl -s 'http://mapix-data.ixxi.net/infos/info.prod.json' | jq '.url'
